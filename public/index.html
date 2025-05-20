@@ -1,34 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Coming Soon - Memoraah</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: sans-serif;
-      background: #0f172a;
-      color: #fff;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      flex-direction: column;
-    }
-    h1 {
-      font-size: 3rem;
-      margin-bottom: 0.5rem;
-    }
-    p {
-      font-size: 1.2rem;
-      color: #cbd5e1;
-    }
-  </style>
-</head>
-<body>
-  <h1>🚀 Memoraah</h1>
-  <p>Coming Soon...</p>
-</body>
+<html lang="en" class="bg-gradient-to-br from-black via-gray-900 to-gray-800 text-white">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memoraah — Coming Soon</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <style>
+      @keyframes flicker {
+        0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+          opacity: 1;
+        }
+        20%, 24%, 55% {
+          opacity: 0.3;
+        }
+      }
+    </style>
+  </head>
+  <body class="flex flex-col min-h-screen">
+    <!-- Main Section -->
+    <main class="flex-grow flex flex-col justify-center items-center text-center px-4">
+      <h1 class="text-5xl sm:text-6xl md:text-7xl font-bold tracking-widest text-white mb-6 animate-pulse">
+        Memoraah
+      </h1>
+      <p class="text-lg sm:text-xl md:text-2xl text-gray-300 max-w-xl">
+        Something amazing is brewing. We're working on the future of motorbike culture.
+      </p>
+      <div class="mt-10">
+        <div class="inline-block bg-white text-black text-sm font-semibold px-6 py-3 rounded-full animate-bounce shadow-md">
+          🚀 Launching Soon
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-6 border-t border-gray-700 text-sm">
+      <p class="text-gray-400">
+        &copy; 2025 <span class="text-white font-semibold">Memoraah</span>. All rights reserved.
+      </p>
+      <p class="mt-1 text-gray-500">
+        Follow us on
+        <a href="https://instagram.com/" class="underline hover:text-white" target="_blank">Instagram</a>,
+        <a href="https://facebook.com/" class="underline hover:text-white" target="_blank">Facebook</a>,
+        <a href="mailto:hello@memoraah.in" class="underline hover:text-white">Email</a>
+      </p>
+    </footer>
+  </body>
 </html>
